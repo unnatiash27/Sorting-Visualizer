@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Edu+VIC+WA+NT+Beginner:wght@500&family=Hubballi&family=Work+Sans:ital@1&display=swap');
+
+
+*{
+  font-family: 'Hubballi', cursive;
+  font-size: 20px;
+}
+.header {
+  margin-bottom: -93px;
+}
+
+.hr{
+  border-top: 3px solid black;
+}
+.vertical {
+  border-left: 3px solid black;
+  height: 105px;
+  position: absolute;
+  left: 50%;
+  margin-left: 196px;
+  margin-top: -72px;
+}
+
+.h1-text{
+  background-color: rgb(218 207 212);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: -10px;
+  padding: 29px;
+  margin-left: -13px;
+  margin-right: -10px;
+  font-size: 50px;
+  border: 4px solid black;
+  font-weight: bold;
+}
+.btn{
+  margin-bottom: 35px;
+}
+
+#bubbleSort{
+  background-color: rgb(69, 65, 65);
+  margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 21px;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: white;
+    cursor: pointer;
+}
+#mergeSort{
+  margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 21px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(69, 65, 65);
+    color: white;
+    cursor: pointer;
+    border: 2px solid black;
+  
+}
+#selectionSort{
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 21px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(69, 65, 65);
+  color: white;
+  cursor: pointer;
+  border: 2px solid black;
+}
+#insertionSort{
+  margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 21px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(69, 65, 65);
+    color: white;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#quickSort{
+  margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 21px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(69, 65, 65);
+    color: white;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#mergeSort:hover {
+  background-color: #c9c2c2;
+  color: black;
+  border: 2px solid rgb(0, 0, 0);
+  font-weight: bold;
+}
+#selectionSort:hover {
+  background-color: #c9c2c2;
+  color: black;
+  border: 2px solid rgb(0, 0, 0);
+  font-weight: bold;
+}
+#insertionSort:hover {
+  background-color: #c9c2c2;
+  color: black;
+  border: 2px solid rgb(0, 0, 0);
+  font-weight: bold;
+}
+#bubbleSort:hover {
+  background-color: #c9c2c2;
+  color: black;
+  border: 2px solid rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+#quickSort:hover {
+  background-color: #c9c2c2;
+  color: black;
+  border: 2px solid rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.array-bar {
+  background-color: rgb(69, 65, 65);
+  display: inline-block;
+  margin: -2px 1px;
+  width: 25px;
+  height: 100%;
+  zoom: 90%;
+  /* padding: 10px; */
+  /* border-bottom: 185px solid red; */
+  border: 2px solid black;
+}
+
+.graph-container {
+  position: relative;
+  z-index: 1; /* Ensure the graph is above other elements */
+  margin-bottom: 100px;
+  margin-bottom: 50px;
+}
+
+
+#array-container
+{
+  margin-top: 700px;
+  height: 400px;
+  width: 1051px;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+.array-bar.swapping {
+  /* Styles for the swapping bars */
+  /* Example: applying a different background color */
+  background-color: red;
+  border: 3px solid rgb(17, 0, 255);
+}
+
+.array-bar.sorting {
+  /* Styles for the bars being merged */
+  /* Example: applying a different background color */
+  background-color: red;
+  border: 3px solidrgb(0, 8, 255);
+}
+
+#generateArrayForm {
+  display: flex;
+  flex-direction: row;
+  margin-top: -40px;
+  margin-left: 1034px;
+}
+
+#generateArrayForm label {
+  font-size: 40px;
+  margin-right: 16px;
+  margin-left: 22px;
+}
+
+#generateArrayForm input {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 2px solid #000000;
+}
+
+#generateArrayForm button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 21px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(69, 65, 65);
+  color: white;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+#generateArrayForm button:hover {
+  background-color: #c9c2c2;
+  color: black;
+  border: 2px solid rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.bar-container {
+  display: inline-block;
+  vertical-align:baseline;
+}
+
+.bar-label {
+  text-align: center;
+  margin-top: 15px; /* Adjust the spacing as needed */
+  margin-left: 10px;
+}
+
+#message-container{
+  margin-top:10px;
+}
+
+.footer {
+  background-color: rgb(218 207 212);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 77px;
+  margin-left: -13px;
+  margin-right: -10px;
+  font-size: 27px;
+  border: 2px solid black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px; /* Adjust the height of the footer as needed */
+  background-color: #f2f2f2;
+  z-index: 2;
+  
+}
+
+
+
+@media screen and (max-width: 768px) {
+  /* Adjust the graph size for smaller screens */
+  .graph-container {
+    height: 300px;
+  }
+}

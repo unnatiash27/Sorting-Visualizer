@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algorithm visualiser</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 class="h1-text">Sortings visualiser</h1>
+        <div class="btn">
+          <button id="mergeSort">Merge sort</button>
+          <button id="selectionSort">Selection sort</button>
+          <button id="bubbleSort">Bubble sort</button>
+          <button id="insertionSort">Insertion sort</button>
+          <button id="quickSort">Quick sort</button>
+          <div class="vertical"></div>
+          <form id="generateArrayForm">
+            <label for="size">Size:</label>
+            <input
+              type="number"
+              id="size"
+              name="size"
+              min="1"
+              max="100"
+              value="0"
+            />
+            <button type="submit">Generate Array</button>
+          </form>
+        </div>
+
+        <hr class="hr" />
+        <div id="array-container"></div>
+        <div id="message-container"></div>
+      </div>
+      <div class="footer">Made with ❤️ by Unnati and team.</div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
